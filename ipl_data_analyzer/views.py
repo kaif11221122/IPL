@@ -11,10 +11,10 @@ from django.db.models import Count, Sum, FloatField
 from django.db.models.functions import Cast, Round
 
 
-# matches_file_path = os.getcwd()+'/resources/matches.csv'
-# deliveries_file_path = os.getcwd()+'/resources/deliveries.csv'
-# CsvFetcher.fetchMatchesDataFile(matches_file_path)
-# CsvFetcher.fetchDeliveriesDataFile(deliveries_file_path)
+matches_file_path = os.getcwd()+'/resources/matches.csv'
+deliveries_file_path = os.getcwd()+'/resources/deliveries.csv'
+CsvFetcher.fetchMatchesDataFile(matches_file_path)
+CsvFetcher.fetchDeliveriesDataFile(deliveries_file_path)
 
 
 # Create your views here.
